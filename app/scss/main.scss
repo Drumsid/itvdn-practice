@@ -1,0 +1,20 @@
+$size-zero: 0px;
+$size-main: 10px;
+$size-width: 100px;
+$color-blue: #007ACC;
+$color-orange: #F37520;
+$color-green: #00A064;
+$color-dark: #000;
+$color-gray: gray;
+$position: center;
+$font-main: Oswald;
+$font-second: sans-serif;
+body {
+    padding: $size-zero;
+    margin: $size-zero;
+    color: $color-dark;
+}
+.grid {
+    display: grid;
+}
+@import "buttons";
